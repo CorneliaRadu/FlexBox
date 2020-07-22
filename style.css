@@ -49,10 +49,35 @@ nav {
 
 }
 
+.navbar-nav li:last-child {
+    margin-top: auto;
+    margin-bottom: 1rem;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    list-style-type: none;
+}
+
 .navbar:hover .nav-link span {
     display: inline;
 }
 
 .navbar:hover {
     width: 16rem;
+}
+
+.navbar-nav li:hover {
+    background-color: rgb(218, 184, 184);
+}
+
+.navbar-title {
+    background-color: rgb(218, 184, 184);
+}
+
+.navbar-title span {
+    display: none;
+    padding: 0;
 }
